@@ -10,16 +10,20 @@
     <meta charset="UTF-8">
     <title>ACE MultiSport</title>
     
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/helper.css">
     <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="css/style.css">  
-    
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
    
+    <link rel="stylesheet" href="css-superfish/megafish.css"/>
+    <link rel="stylesheet" href="css-superfish/superfish.css"/>
+    <link rel="stylesheet" href="css-superfish/superfish-navbar.css"/>
+    <link rel="stylesheet" href="css/superfish-vertical.css"/>
+    
+    <link rel="stylesheet" href="meanmenu.css" media="all" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
     
    
     
@@ -34,22 +38,25 @@
     </h1>
     </div>
     
-  <nav>
-    <div class="toggle">
-        <i class="fa fa-bars" aria-hidden="true"></i>
-
-      </div>
-       
-            <ul>
-                
+     
+    <nav class="super-nav">
+        <ul id="sfNav" class="sf-menu">
             <li><a href="#home">Home</a></li>
-            <li><a href="#coursedetails">Course Details</a></li>               
+            <li><a href="#coursedetails">Course Details</a>
+                <ul>
+                    <li><a href="#swim">Swim</a></li>
+                    <li><a href="#rum">Run</a></li>
+                    <li><a href="#Bike">Bike</a></li>
+                    <li><a href="#tri-a-tri">Tri-A-Tri</a></li>
+                </ul>
+            </li>
+            
             <li><a href="#Events Schedule">Event Schedule</a></li>
             <li><a href="#cost-registration">Cost & Registation</a></li>
             <li><a href="#faq">FAQs</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
-        
+            
       </nav>
         
 
@@ -81,27 +88,34 @@
 
 
 <footer>
-   <h2>
+    <h2>
         Ace in the Hole Multiport Events
     </h2>
 
     <ul>       
+            <li><a href="#">Copyright Link</a></li>
             <li><a href="#">Contact Link</a></li>
             <li><a href="#">Site Map Link</a></li>
             <li><a href="#">Face Book</a></li>
             <li><a href="#">Twitter</a></li>
             <li><a href="#">Instagram</a></li>
-    </ul>
-     <p>Copyright &copy; Ace in the Hole Multisport Events</p> 
+    </ul> 
+    
 </footer>
 
     
     <script src="scripts/jquery.js"></script>
-      
-    <script
-			  src="https://code.jquery.com/jquery-3.3.1.js"></script>
-    <script type="text/javascript"></script>
+    <script src="scripts/hoverIntent.js"></script>
+    <script src="scripts/superfish.js"></script>
+    <script src="scripts/jquery.meanmenu.min.js"></script>
+    <script src="scripts/scripts.js"></script>
+   
+    <script src="scripts/superfish.min.js"></script>
     
+    <script src="scripts/supersubs.js"></script>
+    
+    <script src="//code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="scripts/jquery.meanmenu.js"></script>
     
     
    

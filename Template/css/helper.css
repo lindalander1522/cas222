@@ -25,10 +25,11 @@ do some subtraction.
 
 */
 
-* {
+/* {
     box-sizing: border-box;
 }
- 
+ */
+
 /*
 
 TEXT RENDERING (text-rendering property)
@@ -50,7 +51,7 @@ subtle on a standard display but impressive in a high-definition display.
 There are two additional declarations to cover usage in Webkit and 
 Mozilla engine browsers.
 
-*/
+
 
 html {
     text-rendering: optimizeLegibility;
@@ -67,8 +68,6 @@ The following ensures that images and embedded content you add can't be
 wider than the box element they are currently in. This is important for 
 responsive design, as this allows you to use images without having to 
 specify width and height attributes in the HTML.
-
-*/
 
 img, embed, object {
     max-width: 100%;
