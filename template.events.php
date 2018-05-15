@@ -27,25 +27,7 @@
 
 <header>
     
-    <div class="content">
-    <h1>      
-        Ace in the Hole Multisport Events<img src="images/placeholder.jpg" alt="Place Holder Image" title="Place Holder" >
-    </h1>
-    </div>
-    
-   
-    <nav class="menu-navigation-round">
-      
-      <ul>
-            <li><a href="#home" class="active">Home</a></li>
-            <li><a href="#coursedetails">Course Details</a></li>
-            <li><a href="#Events Schedule">Event Schedule</a></li>
-            <li><a href="#cost-registration">Cost and Registation</a></li>
-            <li><a href="#faq">FAQs</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>   
-       
-    </nav>
+     <?php include $_SERVER["DOCUMENT_ROOT"] . "/testing/cas222/Template/includes/header.inc.php"; ?>
         
       
   </header>  
@@ -67,21 +49,21 @@
     <div class="slideshow-container">
 
 <div class="mySlides fade">
-  <div class="numbertext">1 / 3</div>
+ 
   <img src="images/athletes.jpg" style="width:100%">
-  <div class="text">Caption Text</div>
+  
 </div>
 
 <div class="mySlides fade">
-  <div class="numbertext">2 / 3</div>
+ 
   <img src="images/finish-line.jpg" style="width:100%">
-  <div class="text">Caption Two</div>
+  
 </div>
 
 <div class="mySlides fade">
-  <div class="numbertext">3 / 3</div>
+  
   <img src="images/race.jpg" style="width:100%">
-  <div class="text">Caption Three</div>
+  
 </div>
 
 </div>
@@ -132,52 +114,16 @@
 </main>
 
 <footer>
-     <h2>
-        Ace in the Hole Multisport Events
-    </h2>
-    
-    <div class="container">   
-        <ul>       
-            
-            <li><a href="#">Contact Link</a></li>
-            <li><a href="#">Site Map Link</a></li>
-            <li><a href="#">Face Book</a></li>
-            <li><a href="#">Twitter</a></li>
-            <li><a href="#">Instagram</a></li>
-    </ul> 
-            <p>&copy; Copyright 2018 Ace In The Hole Multisport Events</p>
-       
-    </div>
+     <?php include $_SERVER["DOCUMENT_ROOT"] . "/testing/cas222/Template/includes/footer.inc.php"; ?>
+ <script src="scripts/jquery.menu-navigation-round.js"></script>
  </footer>
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="scripts/jquery.slicknav.min.js"></script>
     <script src="scripts/jquery.slide.js"></script>
-    
-
-<script>
-
-    $(function(){
-
-        var menu = $('.menu-navigation-round');
-
-        menu.slicknav();
-
-        // Mark the clicked item as selected
-
-        menu.on('click', 'a', function(){
-            var a = $(this);
-
-            a.siblings().removeClass('selected');
-            a.addClass('selected');
-        });
-    });
+     <script src="scripts/jquery.menu-navigation-round.js"></script>
 
 
-    
-
-</script>
-    
    
     
 </body>
