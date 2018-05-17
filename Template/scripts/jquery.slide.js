@@ -1,23 +1,5 @@
-<script type="text/javascript">
-	jQuery(function($){
-    	$( '.menu-btn' ).click(function(){
-    		$('.responsive-menu').addClass('expand')
-    		$('.menu-btn').addClass('btn-none')
-    	})
-    	
-    	 $( '.close-btn' ).click(function(){
-    		$('.responsive-menu').removeClass('expand')
-    		$('.menu-btn').removeClass('btn-none')
-    	})
-  	})
- </script>
-
-
-
-
-
-var slideIndex = 0;
-showSlides();
+    var slideIndex = 0;
+    showSlides();
 
 function showSlides() {
     var i;

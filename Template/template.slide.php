@@ -25,43 +25,43 @@
     
 <body>
 
-   
 <header>
     
-     <?php include 'includes/header.inc.php';?>
+    <?php include $_SERVER["DOCUMENT_ROOT"] . "/testing/cas222/Template/includes/header.inc.php"; ?>
       
   </header>  
       
 
 <main>
+    <!--  
     
-    <div class="hero-section">
+<div class="hero-section">
   <div class="hero-section-text">
     <h1>HERO IMAGE</h1>
     <h2>PLACE HOLER</h2>
   </div>
 </div>
+    -->
+     
     
-    <!--  
-    
-    <div class="slideshow-container">
+<div class="slideshow-container">
 
 <div class="mySlides fade">
   <div class="numbertext">1 / 3</div>
   <img src="images/athletes.jpg" style="width:100%">
-  <div class="text">Caption Text</div>
+  <div class="text">PLACE HOLDER</div>
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext">2 / 3</div>
   <img src="images/finish-line.jpg" style="width:100%">
-  <div class="text">Caption Two</div>
+  <div class="text">PLACE HOLDER</div>
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext">3 / 3</div>
   <img src="images/race.jpg" style="width:100%">
-  <div class="text">Caption Three</div>
+  <div class="text">PLACE HOLDER</div>
 </div>
 
 </div>
@@ -72,7 +72,7 @@
   <span class="dot"></span> 
   <span class="dot"></span> 
 </div>
--->
+
     <section>
     
     <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
@@ -92,23 +92,17 @@
 
 
 </main>
-    
-    <footer>
-    
-    <?php include 'includes/footer.inc.php';?>
-    
 
-</footer>
-
+<footer>
+      <?php include $_SERVER["DOCUMENT_ROOT"] . "/testing/cas222/Template/includes/footer.inc.php"; ?>
+ </footer>
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="scripts/jquery.slicknav.min.js"></script>
     <script src="scripts/jquery.slide.js"></script>
-   <script src="scripts/jquery.menu-navigation-round.js"></script>
-    
+     <script src="scripts/jquery.menu-navigation-round.js"></script>
 
 
-    
-   
     
 </body>
 </html>
