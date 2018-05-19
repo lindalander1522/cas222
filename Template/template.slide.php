@@ -27,7 +27,7 @@
 
 <header>
     
-    <?php include $_SERVER["DOCUMENT_ROOT"] . "/testing/cas222/Template/includes/header.inc.php"; ?>
+    <?php include 'includes/header.inc.php';?>
       
   </header>  
       
@@ -94,7 +94,7 @@
 </main>
 
 <footer>
-      <?php include $_SERVER["DOCUMENT_ROOT"] . "/testing/cas222/Template/includes/footer.inc.php"; ?>
+      <?php include 'includes/footer.inc.php';?>
  </footer>
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
