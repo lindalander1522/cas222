@@ -276,6 +276,7 @@ ul img {
   padding-right: 20px;
 }
 footer {
+  height: 100%;
   background-color: #ff0000;
   color: #000000;
 }
