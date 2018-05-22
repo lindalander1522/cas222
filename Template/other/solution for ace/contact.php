@@ -1,5 +1,3 @@
-
-
 <!doctype html>
 
 <!--File Name: template/contact.php -->
@@ -43,13 +41,39 @@
     <h2>PLACE HOLER</h2>
   </div>
 </div>
-    <br>
     
-    <h2>
-    Please fill in the contact form below to communicate your questions to us. We will contact you by email with answers. 
-    </h2>
+    <!--  
+    
+    <div class="slideshow-container">
 
-<?php
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="images/athletes.jpg" style="width:100%">
+  <div class="text">Caption Text</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="images/finish-line.jpg" style="width:100%">
+  <div class="text">Caption Two</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="images/race.jpg" style="width:100%">
+  <div class="text">Caption Three</div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+-->
+    <?php
 // Only process the form if $_POST isn't empty
 if ( ! empty( $_POST ) ) {
 
@@ -62,7 +86,7 @@ if ( ! empty( $_POST ) ) {
   }
 
   // Insert our data
-  $sql = "INSERT INTO contact ( name, email, category, questions ) VALUES ( '{$mysqli->real_escape_string($_POST['name'])}', '{$mysqli->real_escape_string($_POST['email'])}', '{$mysqli->real_escape_string($_POST['category'])}', '{$mysqli->real_escape_string($_POST['questions'])}')";
+  $sql = "INSERT INTO contact ( name, email, category, questions ) VALUES ( '{$mysqli->real_escape_string($_POST['name'])}', '{$mysqli->real_escape_string($_POST['email'])}', '{$mysqli->real_escape_string($_POST['category'])}', '{$mysqli->real_escape_string($_POST['questions'])}',)";
   $insert = $mysqli->query($sql);
 
   // Print response from MySQL
@@ -76,28 +100,37 @@ if ( ! empty( $_POST ) ) {
   $mysqli->close();
 }
 ?>
-<form method="post" action="">
-    <label for="name">Name</label>
-  <input name="name" type="text">
-    <br>
-    <label for="email">E-mail</label>
-  <input name="email" type="email">
-    <br>
-    <label for="category">Category</label>
-    <input name="category" type="text">
-    <br>
-    <label for="comment">Comment or Question</label>
-    <input name="questions" type="text">
-    <br>
-  <input type="submit" value="Submit Form">
-</form>
+    <section>
     
-    </main>
+    <p>SOME TEXT</p>
+        
+     <form action="contact_form.php" method="post">
+    <label for="cname">Name</label>
+    <input type="text" id="name" name="name" placeholder="Your name..">
+
+    <label for="ce-mail">E-mail</label>
+    <input type="email" id="email" name="email" placeholder="Your e-mail..">
+
+    <label for="category">Category</label>
+    <input type="text" id="category" name="category" placeholder="Your category..">
+
+    <label for="comment">Comment or Question</label>
+    <textarea id="comment" name="comment">Put your comment here.</textarea>
+
+    <input type="submit" value="Submit">
+</form>   
+        
+     
+    </section>
+    
+  
+    
+</main>
     
     <footer>
     
-    
     <?php include 'includes/footer.inc.php';?>
+    
 
 </footer>
 
