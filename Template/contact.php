@@ -54,7 +54,7 @@
 if ( ! empty( $_POST ) ) {
 
   // Connect to MySQL
-  $mysqli = new mysqli( 'localhost', 'ace', 'myP4ssw0rd', 'ace' );
+  $mysqli = new mysqli( 'localhost', 'ace1234', 'myP4ssw0rd', 'ace123' );
 
   // Check our connection
   if ( $mysqli->connect_error ) {
