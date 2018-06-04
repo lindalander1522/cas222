@@ -75,22 +75,16 @@
 
 <h3>USA Triathalon Rules</h3>
 
-<p>CLICK THE USA LINK TO READ THE RULES</p>
+<p>CLICK USA LINK TO READ THE RULES
+    <a href="https://www.teamusa.org/USA-Triathlon/About/Multisport/Competitive-Rules">
+<img src="images/rules.jpg" alt="Rules"> 
+</a> </p> 
+<br>
+<br>
+<br>
 
-<a href="https://www.teamusa.org/USA-Triathlon/About/Multisport/Competitive-Rules">
-  <img src="images/usa.jpg" alt="Rules">
-</a>
-      
- 
-        
-      
-        
-      
-        
-       
-        
-        
-       
+
+    
 
 </main>
     

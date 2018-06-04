@@ -47,8 +47,10 @@
         <h3>
         What are the Rules? 
         </h3>
-        <p>We currently adhere to the <a href="rules.php">USAT Rules for Trathlon and Duathlon.</a> Important rules include no drafting, you must wear a helmet and music is ABSOLUTELY NOT allowed during the bike for obvious safety reasons.     
+        <p>We currently adhere to the <a href="rules.php">USAT Rules for Trathlon and Duathlon.<img src="images/rules.jpg"></a> Important rules include no drafting, you must wear a helmet and music is ABSOLUTELY NOT allowed during the bike for obvious safety reasons.     
         </p>
+        <br>
+        <br>
     </section>
       <hr>
       <hr>
@@ -62,7 +64,7 @@
     <hr>
     <hr>    
         <h2>
-        Can I use a personal music device while running?
+        Can I use a personal music device while running?<img src="images/headphone2.jpg">
         </h2>
         
          <p>During any running segments, we prefer for athletes to NOT use music devices to maximize safety, assure a fair      competitive environment and assure athletes can hear all course marshal instructions. With that said, we also       understand that many athletes rely on music
@@ -76,8 +78,9 @@
      <hr>
      <hr>
      <hr>
+    <img src="images/cubike2.jpg">
         <h2>
-        Do I need to wear a wetsuit?
+        Do I need to wear a wetsuit? 
         </h2>
         
         <p>No, you do not need to wear a wetsuit. Many will not wear a wetsuit while others will choose to wear a wetsuit because of the buoyancy and warmth factor.</p>

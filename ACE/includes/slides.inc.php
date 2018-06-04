@@ -5,17 +5,27 @@
 </div>
 
 <div class="mySlides fade">
-    <img src="images/single bike racer.jpg">
+    <img src="images/swimmer.jpg">
   </div>
 
 <div class="mySlides fade">
     <img src="images/race.jpg">
  </div>
+    
+<div class="mySlides fade">
+    <img src="images/route.jpg">
+ </div>
+    
+<div class="mySlides fade">
+    <img src="images/beginning.jpg">
+ </div>
+    
 
-</div>
 <br>
     
 <div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
   <span class="dot"></span> 
   <span class="dot"></span> 
   <span class="dot"></span> 

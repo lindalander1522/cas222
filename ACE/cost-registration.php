@@ -35,10 +35,7 @@
   </header>  
         
 
-<main>
-    
-
-    
+<main>    
     
     <h4>
     Course Costs Include
@@ -51,8 +48,10 @@
          <li>Accurate Chip Timing for competitive races</li>
          <li>Ace in the Hole MultiSport Weekend Tech Shirt</li>
          <li>Post-event party & entertainment</li>
-        <p>NOTE: Tech shirts guaranteed to pre-registered participants only.</p>
     </ul>
+    <h4>
+    NOTE: Tech shirts guaranteed to pre-registered participants only.
+    </h4>
     <hr>
     
     <h3>

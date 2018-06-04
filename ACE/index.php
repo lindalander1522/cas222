@@ -45,7 +45,7 @@
     -->
    
    
-    <<?php include 'includes/slides.inc.php';?>   
+    <?php include 'includes/slides.inc.php';?>   
 
     <section>
         <h2>
