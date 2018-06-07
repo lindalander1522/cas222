@@ -29,8 +29,10 @@ if ( ! empty( $_POST ) ) {
     <label for="name">Name</label>
   <input name="name" type="text">
     <br>
+    <br>
     <label for="email">E-mail</label>
   <input name="email" type="email">
+    <br>
     <br>
     <label for="category">Category</label>
     
@@ -40,10 +42,11 @@ if ( ! empty( $_POST ) ) {
           <option value="volunteer">Volunteer</option>
           <option value="interested party">Interested Party</option>
         </select>
-    
+    <br>
     <br>
     <label for="comment">Comment or Question</label>
     <input name="questions" type="text">
+    <br>
     <br>
   <input type="submit" value="Submit Form">
 </form>

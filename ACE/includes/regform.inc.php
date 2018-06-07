@@ -82,10 +82,21 @@ $sql = "INSERT INTO registration ( name, email, phone, category, saturday, sunda
     <br>
     <br>
     
-    <label for="size"> T-shirt size: (XS-XXXXL)</label>
-  <input name="size" type="text">
+    <label for="size">T-shirt size</label>
+  <select size="1" name="size" id="size">
+          <option>Size</option>
+          <option value="xs">XS</option>
+          <option value="s">S</option>
+          <option value="m">M</option>
+          <option value="L">L</option>
+          <option value="xl">XL</option>
+          <option value="xxl">XXL</option>
+          <option value="xxxl">XXXL</option>
+     
+        </select>
     <br>
     <br>
+    
     
     <label for="ename">Emergency Name</label>
   <input name="ename" type="text">

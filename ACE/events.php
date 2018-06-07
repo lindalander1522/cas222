@@ -123,7 +123,7 @@
     <hr>
     
     
-     <img src="images/running.jpg" alt="running" title="running"> 
+     <img src="images/running2.jpg" alt="running" title="running"> 
     
     <section id="events_sunday" class="section group">
 
@@ -188,6 +188,7 @@
 </main>
 
 <footer>
+    
       <?php include 'includes/footer.inc.php';?>
  
  </footer>

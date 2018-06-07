@@ -36,8 +36,11 @@
 <main>
     
    
-    <?php include 'includes/slides.inc.php';?> 
-      
+     <section>
+    <?php include 'includes/slides.inc.php';?>  
+         
+</section>
+    
       <section>
         <h4>
         COURSE DETAILS
@@ -64,7 +67,7 @@
         LONG COURSE SWIM - 1.2mi
         </h2>
         
-        <p>Participants will make two counter-clockwise loops. Large buoys will mark the turn points. Kayakers will be positioned on the water to support the swimmers. Medical support will be present on the beach.</p>
+        <p>Participants will make two counter-clockwise loops. Large buoys will mark the turn points. Kayakers will be positioned on the water to support the swimmers. Medical support will be present on the beach. Cost is $240.</p>
     
     <hr>
         
@@ -72,7 +75,7 @@
         LONG COURSE BIKE - 58 Miles
         </h2>
         
-         <p>A scenic point-to-point course that travels over gently rolling hills prior to three hard climbs. The bike course will be marked with large directional signage and there will be course marshals at key intersections to help direct you.</p>
+         <p>A scenic point-to-point course that travels over gently rolling hills prior to three hard climbs. The bike course will be marked with large directional signage and there will be course marshals at key intersections to help direct you. Cost is $240.</p>
         
      <hr>
         
@@ -80,7 +83,7 @@
         LONG COURSE RUN
         </h2>
         
-        <p>13.1mi - A mostly flat loop course on widely paved bike paths that traverse through and around this beautiful and scenic destination resort (two hills total with a minimal elevation gain).</p>
+        <p>13.1mi - A mostly flat loop course on widely paved bike paths that traverse through and around this beautiful and scenic destination resort (two hills total with a minimal elevation gain). Cost is $240.</p>
         
     <hr>
         
@@ -88,7 +91,7 @@
         OLYMPIC SWIM
         </h2>
         
-        <p>11,500 meters - Participants will make two counter-clockwise loops. Large buoys will mark the turn points. Kayakers will be positioned on the water to support the swimmers. Medical support will be present on the beach.</p>
+        <p>11,500 meters - Participants will make two counter-clockwise loops. Large buoys will mark the turn points. Kayakers will be positioned on the water to support the swimmers. Medical support will be present on the beach. cost is $110.</p>
         
     <hr>
         
@@ -96,7 +99,7 @@
         OLYMPIC BIKE – 28mi
         </h2>
         
-        <p>28mi - A scenic point-to-point course that travels over gently rolling hills. The bike course will be marked with large directional signage and course marshals will be present at key intersections.</p>
+        <p>28mi - A scenic point-to-point course that travels over gently rolling hills. The bike course will be marked with large directional signage and course marshals will be present at key intersections. Cost is $110.</p>
         
     <hr>
         
@@ -104,7 +107,7 @@
         OLYMPIC RUN – 10K
         </h2>
         
-        <p>A mostly flat loop course on widely paved bike paths that traverse through and around this beautiful and scenic destination resort (one hill total with a minimal elevation gain).</p>
+        <p>A mostly flat loop course on widely paved bike paths that traverse through and around this beautiful and scenic destination resort (one hill total with a minimal elevation gain). Cost is $110.</p>
         
     <hr>
         
@@ -112,7 +115,7 @@
         SPRINT
         </h2>
         
-        <p>Course will offer a 1-loop 1/2 mile swim, the exact same 28 mile Bike Course as the Olympic distance and a 5km run.</p>
+        <p>Course will offer a 1-loop 1/2 mile swim, the exact same 28 mile Bike Course as the Olympic distance and a 5km run. Cost is $90</p>
         
     <hr>
         
@@ -120,7 +123,7 @@
         TRY-A-TRI
         </h2>
         
-        <p>This novice race is designed for the first time triathlete, those new to the sport, our Junior Triathletes. The swim is a shorter, more manageable 1/4 mile distance, (instead of the standard 1/2-mile Sprint distance swim), 10 mile bike ride (vs 12 miles and it's a 2 loop course making it very spectator friendly!) and a flat 2 mile run (vs 3 mile sprint course).</p>
+        <p>This novice race is designed for the first time triathlete, those new to the sport, our Junior Triathletes. The swim is a shorter, more manageable 1/4 mile distance, (instead of the standard 1/2-mile Sprint distance swim), 10 mile bike ride (vs 12 miles and it's a 2 loop course making it very spectator friendly!) and a flat 2 mile run (vs 3 mile sprint course). Cost is $65.</p>
         
     <hr>
         
@@ -128,7 +131,7 @@
         HALF MARATHON COURSE:
         </h2>
         
-        <p>Half-Marathon (13.1-miles): Half-Marathon event starts and finishes in the Athletes Village to the cheers of the enthusiastic crowd. Once finished, runners can enjoy the finish line festivities, including the Sports & Fitness Expo and live entertainment. Post-race refreshments will be provided and the Awards Ceremony for the Half-Marathon will begin once the results have been certified</p>
+        <p>Half-Marathon (13.1-miles): Half-Marathon event starts and finishes in the Athletes Village to the cheers of the enthusiastic crowd. Once finished, runners can enjoy the finish line festivities, including the Sports & Fitness Expo and live entertainment. Post-race refreshments will be provided and the Awards Ceremony for the Half-Marathon will begin once the results have been certified. Cost is $75.</p>
         
     <hr>
         
@@ -136,35 +139,47 @@
         10k COURSE
         </h2>
         
-        <p>The 10K event starts and finishes in the Athletes Village. The paths are approximately 6 ft wide, perfectly paved and wind around through the forest. Each course has only two small hills with a minimal elevation gain to navigate and a fast downhill to flat finish to the roaring cheers of the crowd.</p>
+        <p>The 10K event starts and finishes in the Athletes Village. The paths are approximately 6 ft wide, perfectly paved and wind around through the forest. Each course has only two small hills with a minimal elevation gain to navigate and a fast downhill to flat finish to the roaring cheers of the crowd. Cost is $50.</p>
         
     <hr>
+        
+        <h2>
+        Splash-N-Dash
+        </h2>
+        
+        <p>The Splash n' Dash is a kids event for kids ages 6 to 14. It is a 100 yard swim and a 50 meter dash. It is $25 unless an adult registers for an event then it is free.</p>
+        
+       
+        <hr>
         <br>
+         
+    
         </section>
-      
-      <div class="party-img">
-      
-      <img src="images/party.jpg" alt="After Race Party" title="After Race Party" >
-          
-          </div>
+    <br>
+     
+   
+    
+    <section>
       
       <div class="party">
           
         <h4>After Race Party
         </h4>
-    
+          
+ 
         </div>
-        
     
     </section>
     
 <div id="remember">
+       
         <h4><p>Remember to bring a change of clothing so you can enjoy the post-event festivities.</p></h4>
         </div>
 
 </main>
     
     <footer>
+         
     
     <?php include 'includes/footer.inc.php';?>
     

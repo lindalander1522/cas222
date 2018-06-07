@@ -5,15 +5,15 @@
 </div>
 
 <div class="mySlides fade">
-    <img src="images/swimmer.jpg">
+    <img src="images/biking.jpg">
   </div>
 
 <div class="mySlides fade">
-    <img src="images/race.jpg">
+    <img src="images/race2.jpg">
  </div>
     
 <div class="mySlides fade">
-    <img src="images/route.jpg">
+    <img src="images/end2.jpg">
  </div>
     
 <div class="mySlides fade">

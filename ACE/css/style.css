@@ -197,6 +197,10 @@ img {
   }
 }
 /* End Slide Show------------------------------------------------------------------*/
+/* Form------------------------------------------------------------------*/
+input {
+  width: 100%;
+}
 a:link {
   color: #000000;
 }
@@ -407,16 +411,21 @@ footer p {
 }
 .party-img {
   display: block;
-  margin-top: 10px;
+  width: 50%;
   margin-left: auto;
   margin-right: auto;
 }
-/*TABLET STYLESHEET
-
-
-
-*/
-@media only screen and (min-width: 481px) {
+/*MOBILE ONLY STYLESHEET*/
+@media screen and (max-width: 600px) {
+  .slideshow-container {
+    display: none;
+  }
+}
+/*TABLET STYLESHEET*/
+@media only screen and (max-width: 964px) {
+  .nonslide-container {
+    display: none;
+  }
   body {
     font-size: 20px;
     line-height: 2em;
@@ -441,7 +450,10 @@ DESKTOP STYLESHEET
 The following CSS affects all screen sizes larger than 1024 pixels wide.
 
 */
-@media only screen and (min-width: 1025px) {
+@media only screen and (max-width: 1366px) {
+  .nonslide-container {
+    display: none;
+  }
   body {
     font-size: 20px;
     line-height: 2em;

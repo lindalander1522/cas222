@@ -101,11 +101,7 @@
         <br>
         </section>
       
-      <div class="party-img">
       
-      <img src="images/party.jpg" alt="After Race Party" title="After Race Party" >
-          
-          </div>
       
       <div class="party">
           

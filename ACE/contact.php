@@ -37,7 +37,11 @@
 
 <main>
 
-   <?php include 'includes/slides.inc.php';?> 
+    <section>
+    <?php include 'includes/slides.inc.php';?>   
+</section>
+    
+    
     
     <h2>
     Please fill in the contact form below to communicate your questions to us. We will contact you by email with answers. 
